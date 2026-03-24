@@ -1,0 +1,85 @@
+[
+  {
+    "transaction_id": "ALGO-BE0688DFD6F17491F1",
+    "message_hash": "be0688dfd6f17491f1e71ae6164c603610c585d8352c0fe6889d15437270412a",
+    "network": "algorand-testnet-simulated",
+    "timestamp": "2026-03-23T15:23:19.977298",
+    "payload": {
+      "wallet_address": "ALGO-DEMO-WALLET-01",
+      "message": "ALGORAND HOLD signal",
+      "risk_score": 40,
+      "decision": "HOLD",
+      "timestamp": "2026-03-23T15:23:19.976682",
+      "details": [
+        "Price action is relatively stable and volatility remains contained.",
+        "Large transfers are rising and may lead to short-term market instability.",
+        "No major contract anomalies detected. Audit status remains verified.",
+        "Token is trending with score 58. Upside exists, but confirmation is still developing."
+      ]
+    },
+    "status": "confirmed-simulated",
+    "note": "{\"message\": \"ALGORAND HOLD signal\", \"risk_score\": 40, \"timestamp\": \"2026-03-23T15:23:19.976682\"}"
+  },
+  {
+    "transaction_id": "ALGO-C6A0B71F971BD2A0EB",
+    "message_hash": "c6a0b71f971bd2a0eb1e9dbdc044d7d3f6e0a1367f933bfaa7a9b8bd3b2aabaf",
+    "network": "algorand-testnet-simulated",
+    "timestamp": "2026-03-23T15:31:59.116872",
+    "payload": {
+      "wallet_address": "ALGO-DEMO-WALLET-01",
+      "message": "ALGORAND BUY signal",
+      "risk_score": 27,
+      "decision": "BUY",
+      "timestamp": "2026-03-23T15:31:58.971997",
+      "details": [
+        "Price action is relatively stable and volatility remains contained.",
+        "3 large inbound accumulation flows detected. Whales appear to be supporting price levels.",
+        "No major contract anomalies detected. Audit status remains verified.",
+        "Momentum is strong with 19.00% 7d growth and momentum score 82."
+      ]
+    },
+    "status": "confirmed-simulated",
+    "note": "{\"message\": \"ALGORAND BUY signal\", \"risk_score\": 27, \"timestamp\": \"2026-03-23T15:31:58.971997\"}"
+  },
+  {
+    "transaction_id": "ALGO-CF7152D893D52A0451",
+    "message_hash": "cf7152d893d52a0451d53ad24f7b50774ebdbcdecca04806ebe0324ff497d402",
+    "network": "algorand-testnet-simulated",
+    "timestamp": "2026-03-23T15:41:00.093323+00:00",
+    "payload": {
+      "wallet_address": "ALGO-DEMO-WALLET-01",
+      "message": "Test Alert",
+      "risk_score": 77,
+      "decision": "SELL",
+      "timestamp": "2026-03-23T00:00:00+00:00",
+      "details": [
+        "risk spike"
+      ]
+    },
+    "status": "confirmed-simulated",
+    "note": "{\"message\": \"Test Alert\", \"risk_score\": 77, \"timestamp\": \"2026-03-23T00:00:00+00:00\"}",
+    "mode": "simulation"
+  },
+  {
+    "transaction_id": "ALGO-0D93286905A3469A5C",
+    "message_hash": "0d93286905a3469a5ce7d104e5dcc977c7d04e75fa4dd71509a9993c0ad47a6b",
+    "network": "algorand-testnet-simulated",
+    "timestamp": "2026-03-23T16:06:50.686881+00:00",
+    "payload": {
+      "wallet_address": "ALGO-DEMO-WALLET-01",
+      "message": "RIPPLE HOLD signal",
+      "risk_score": 38,
+      "decision": "HOLD",
+      "timestamp": "2026-03-23T16:06:39.035037+00:00",
+      "details": [
+        "Price action is relatively stable and volatility remains contained.",
+        "Large transfers are rising and may lead to short-term market instability.",
+        "No major contract anomalies detected. Audit status remains verified.",
+        "No compelling price momentum or trending catalyst is active."
+      ]
+    },
+    "status": "confirmed-simulated",
+    "note": "{\"message\": \"RIPPLE HOLD signal\", \"risk_score\": 38, \"timestamp\": \"2026-03-23T16:06:39.035037+00:00\"}",
+    "mode": "simulation"
+  }
+]
